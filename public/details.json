@@ -1,0 +1,82 @@
+
+[
+   
+            {
+                "deatils_id": 1,
+                "admission_details": "ei month e start hobe",
+                "events_details": [
+                    "1.Shoshostro bahini dibosh",
+                    "2.Victory Day"
+                ],
+                "sports": [
+                    "1. cricket",
+                    "2. football"
+                    
+                ],
+                "rating_details": "Top school in dhaka"
+            },
+        
+         {
+                "deatils_id": 2,
+                "admission_details": "ei month e start hobe",
+                "events_details": [
+                    "1.Shoshostro bahini dibosh",
+                    "2.Victory Day"
+                ],
+                "sports": [
+                    "1. cricket",
+                    "2. football"
+                    
+                ],
+                "rating_details": "Top school in dhaka"
+            },
+            
+            {
+                "deatils_id": 3,
+                "admission_details": "ei month e start hobe",
+                "events_details": [
+                    "1.Shoshostro bahini dibosh",
+                    "2.Victory Day"
+                ],
+                "sports": [
+                    "1. cricket",
+                    "2. football"
+                    
+                ],
+                "rating_details": "Top school in dhaka"
+            },
+            
+            {
+                "deatils_id": 4,
+                "admission_details": "ei month e start hobe",
+                "events_details": [
+                    "1.Shoshostro bahini dibosh",
+                    "2.Victory Day"
+                ],
+                "sports": [
+                    "1. cricket",
+                    "2. football"
+                    
+                ],
+                "rating_details": "Top school in dhaka"
+            },
+            
+            {
+                "deatils_id": 5,
+                "admission_details": "ei month e start hobe",
+                "events_details": [
+                    "1.Shoshostro bahini dibosh",
+                    "2.Victory Day"
+                ],
+                "sports": [
+                    "1. cricket",
+                    "2. football"
+                    
+                ],
+                "rating_details": "Top school in dhaka"
+            }
+    
+    
+    
+    
+]

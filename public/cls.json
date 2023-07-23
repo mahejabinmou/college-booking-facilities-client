@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Adamjee Cantonment College",
+        "admission_dates": "August 15, 2023",
+        "admission_process":"Viva Exam",
+        "event": {
+            "name": "Annual Cultural Fest",
+            "details": "A week-long celebration of music, dance, and arts."
+        },
+        "research_history": "Established in 1950, the university has a rich history of groundbreaking research.",
+        "research_works": "The university has published numerous research papers in various fields.",
+        "research_number":"1",
+        "sports": {
+            "name": "Intercollegiate Sports Meet",
+            "details": "A grand sports event featuring various sports competitions."
+        },
+        "ratings": 4.5,
+        "image": "https://i.ibb.co/qdChHCR/Front-View-of-ACC.jpg"
+    },
+    {
+        "name": "XYZ College",
+        "admission_dates": "July 20, 2023",
+        "admission_process":"Written Exam",
+        "event": {
+            "name": "Tech Expo",
+            "details": "An exhibition showcasing the latest technological innovations."
+        },
+        "research_history": "A leading institution in research and development since 1985.",
+        "research_works": "Pioneering research in artificial intelligence and robotics.",
+        "research_number":"1",
+        "sports": {
+            "name": "Intramural Sports Tournament",
+            "details": "In-house sports competitions promoting a healthy campus lifestyle."
+        },
+        "ratings": 4.2,
+        "image": "https://i.ibb.co/DwY5Vpk/BAF-Shaheen-College-Dhaka-Entrance-Gate.jpg"
+    },
+    {
+        "name": "DEF Institute of Technology",
+        "admission_dates": "September 5, 2023",
+        "admission_process":"Viva Exam",
+        "event": {
+            "name": "Hackathon",
+            "details": "A coding marathon fostering creativity and problem-solving skills."
+        },
+        "research_history": "Leading the way in cutting-edge technology research.",
+        "research_works": "Patents in fields like nanotechnology and renewable energy.",
+        "research_number":"1",
+        "sports": {
+            "name": "Annual Athletics Meet",
+            "details": "A showcase of sporting talent from all departments."
+        },
+        "ratings": 4.8,
+        "image": "https://i.ibb.co/bBtz1bQ/navy.jpg"
+    },
+    {
+        "name": "GHI Business School",
+        "admission_dates": "October 10, 2023",
+        "admission_process":"Written Exam",
+        "event": {
+            "name": "Business Conference",
+            "details": "A conference on emerging trends in the business world."
+        },
+        "research_history": "Focused on research in finance, economics, and management.",
+        "research_works": "Published papers on business strategies and entrepreneurship.",
+        "research_number":"1",
+        "sports": {
+            "name": "Intra-Business School Sports Meet",
+            "details": "Sports competitions fostering teamwork and leadership among business students."
+        },
+        "ratings": 4.3,
+        "image": "https://i.ibb.co/SXrhk0m/bcpsc.jpg"
+    },
+    {
+        "name": "JKL Medical College",
+        "admission_dates": "November 1, 2023",
+        "admission_process":"Viva Exam",
+        "event": {
+            "name": "Medical Symposium",
+            "details": "A symposium highlighting advancements in medical research and practice."
+        },
+        "research_history": "Known for medical breakthroughs and contributions to healthcare.",
+        "research_works": "Published studies on diseases, treatments, and medical technologies.",
+        "research_number":"1",
+        "sports": {
+            "name": "Med-Olympics",
+            "details": "Sports competitions promoting a healthy lifestyle among medical students."
+        },
+        "ratings": 4.6,
+        "image": "https://i.ibb.co/qdChHCR/Front-View-of-ACC.jpg"
+    },
+    {
+        "name": "MNO Arts Institute",
+        "admission_dates": "December 5, 2023",
+        "admission_process":"Written Exam",
+        "event": {
+            "name": "Art Exhibition",
+            "details": "An exhibition showcasing diverse art forms and creativity."
+        },
+        "research_history": "Known for fostering creativity and innovation in the arts.",
+        "research_works": "Artistic research projects exploring new techniques and expressions.",
+        "research_number":"1",
+        "sports": {
+            "name": "Artists' Sports Meet",
+            "details": "Sports events for students to relax and express through physical activities."
+        },
+        "ratings": 4.4,
+        "image": "https://i.ibb.co/ZBZBx6h/city.jpg"
+    }
+]
