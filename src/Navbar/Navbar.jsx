@@ -15,7 +15,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="navbar bg-green-200 h-28 text-secondary mb-4">
+        <div className="navbar bg-green-200 h-28 text-dark mb-4">
             <div className="navbar-start ">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -31,11 +31,11 @@ const Navbar = () => {
                 </div>
                 
                 <Link to="/" className="btn btn-ghost normal-case text-xl">
-                    <p className="text-secondary normal-case text-xl">CollegeZone</p>
+                    <p className="text-dark normal-case text-xl">CollegeZone</p>
                 </Link>
             </div>
 
-            <div className="navbar-center hidden text-secondary lg:flex">
+            <div className="navbar-center hidden text-dark lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li><Link to="/">Home</Link></li>
                     <li tabIndex={0}>
@@ -46,10 +46,12 @@ const Navbar = () => {
                     <li><Link to="/signup">Signup</Link></li>
                     
 
+                    <li>
                     {
                 user ? <button onClick={handleLogOut}>Logout</button>:
                 <Link to="/login">Login</Link>
               }
+                    </li>
                     
 
                 </ul>

@@ -24,14 +24,14 @@ const SearchCollege = () => {
     };
     return (
         <div>
-            <h2 className="text-5xl text-center text-secondary p-8 mb-8">Search College</h2>
+            <h2 className="text-2xl text-center text-success p-8">Search College</h2>
             <div className="form-control mx-auto grid md:grid-cols-2 gap-4  w-1/3">
 
                 <input onChange={(e) => setSearchText(e.target.value)} type="text" placeholder="search by college name"
                     className="input input-bordered" />
                 <button
                     onClick={handleSearch}
-                    className=" btn btn-secondary w-[90px] ">Search</button>
+                    className=" btn btn-success ">Search</button>
 
             </div>
             <div>

@@ -48,17 +48,17 @@ const Signup = () => {
     return (
         <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col  lg:flex-row">
-            <div className="w-1/2 mr-20 p-4">
-                <img src="https://i.ibb.co/vqbhyMr/signup.png" className="rounded-xl" alt="" />
+            <div className="w-1/2 mr-20 p-2">
+                <img src="https://i.ibb.co/fvWrTp1/signup.png" className="rounded-xl w-[400px]" alt="" />
             </div>
             <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                 <div className="card-body">
-                    <h1 className="text-3xl text-center font-bold text-secondary">signup</h1>
+                    <h1 className="text-3xl text-center font-bold text-success">signup</h1>
                    
               <p className="text-danger">
                 {error}
                 </p>
-              <form action="" className="flex-col  items-center">
+              <form action="" className="flex-col  items-center text-center">
      <div>
           <input 
           onChange={(e) => setName(e.target.value)} 
@@ -89,7 +89,7 @@ const Signup = () => {
                 </div>
                 <button
                   onClick={handleRegistration}
-                  className="btn btn-secondary w-75 p-2 mt-3"
+                  className="btn btn-success w-20 p-2"
                 >
                   SignUp
                 </button>
@@ -97,7 +97,7 @@ const Signup = () => {
               </form>
 
               <p className="p-2">
-                  <small className="text-secondary ">
+                  <small className="text-success ">
                     
                     <Link to="/login">already have account? login here..</Link>
                   </small>
