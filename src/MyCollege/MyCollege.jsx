@@ -5,7 +5,7 @@ import MyCollegeRaw from "./MyCollegeRaw";
 const MyCollege = () => {
     const [forms, setForms] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:4000/allform`)
+        fetch(`https://college-booking-facilities-server-mahejabinmou.vercel.app/allform`)
             .then(res => res.json())
             .then(data => setForms(data))
     }, [])

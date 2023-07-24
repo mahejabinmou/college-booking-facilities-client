@@ -9,7 +9,7 @@ const CardDetails = () => {
     const [collegeDetail, setCollegeDetail] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:4000/classes/${singleData?._id}`)
+        fetch(`https://college-booking-facilities-server-mahejabinmou.vercel.app/classes/${singleData?._id}`)
             .then(res => res.json())
             .then(data => setCollegeDetail(data))
     }, [])

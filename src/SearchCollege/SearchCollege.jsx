@@ -8,14 +8,14 @@ const SearchCollege = () => {
     const [searchText, setSearchText] = useState("");
 
     useEffect(() => {
-        fetch('http://localhost:4000/classes')
+        fetch('https://college-booking-facilities-server-mahejabinmou.vercel.app/classes')
             .then(res => res.json())
             .then(data => setColleges(data))
     }, [])
     console.log(Colleges);
 
     const handleSearch = () => {
-        fetch(`http://localhost:4000/collegeSearchByName/${searchText}`)
+        fetch(`https://college-booking-facilities-server-mahejabinmou.vercel.app/collegeSearchByName/${searchText}`)
             .then((res) => res.json())
             .then((data) => {
                 console.log(data);

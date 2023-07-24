@@ -6,7 +6,7 @@ const CollegeSection = () => {
     const [selectClasses, setSelectClass] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:4000/selectClasses')
+        fetch('https://college-booking-facilities-server-mahejabinmou.vercel.app/selectClasses')
             .then(res => res.json())
             .then(data => setSelectClass(data))
     }, [])

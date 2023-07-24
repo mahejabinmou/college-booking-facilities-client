@@ -13,6 +13,8 @@ import Admission from "../Admission/Admission";
 import MyCollege from "../MyCollege/MyCollege";
 import AdmissionForm from "../AdmissionForm/AdmissionForm";
 import SearchCollege from "../SearchCollege/SearchCollege";
+import AddReview from "../AddReview/AddReview";
+import ReviewPage from "../ReviewPage/ReviewPage";
 
   
   export const router = createBrowserRouter([
@@ -33,14 +35,14 @@ import SearchCollege from "../SearchCollege/SearchCollege";
           {
             path:"/carddetails/:id",
             element:<CardDetails></CardDetails>,
-            loader:({params})=>fetch(`http://localhost:4000/classes/${params.id}`)
+            loader:({params})=>fetch(`https://college-booking-facilities-server-mahejabinmou.vercel.app/classes/${params.id}`)
 
           },
           {
             
               path:"/admissionform/:id",
               element:<AdmissionForm></AdmissionForm>,
-              loader:({params})=>fetch(`http://localhost:4000/forms/${params.id}`)
+              loader:({params})=>fetch(`https://college-booking-facilities-server-mahejabinmou.vercel.app/classes/${params.id}`)
   
             
           },
@@ -64,7 +66,17 @@ import SearchCollege from "../SearchCollege/SearchCollege";
           {
             path:"/mycollege",
             element:<MyCollege></MyCollege>
-          }
+          },
+          {
+            path:"/addreview",
+            element:<AddReview></AddReview>,
+           
+          },
+          {
+            path:"/reviewpage",
+            element:<ReviewPage></ReviewPage>,
+           
+          },
       ]
     },
   ]);

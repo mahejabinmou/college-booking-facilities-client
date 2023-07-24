@@ -1,7 +1,12 @@
+import { useLoaderData } from "react-router-dom";
+import Swal from "sweetalert2";
 
 
 
 const AdmissionForm = () => {
+    const college=useLoaderData();
+    console.log(college);
+    const {_id}=college;
 
     const handleAddClass = event => {
         event.preventDefault();
@@ -16,29 +21,30 @@ const AdmissionForm = () => {
         
         
 
-        const newAdmission = { name, subject, phone, email,address,date,img }
+        const newAdmission = { name, subject, phone, email,address,date,img,collegeId:_id }
          console.log(newAdmission);
 
-        // send data to server
-        // fetch('http://localhost:4000/form',{
-        //     method:'POST',
-        //     headers:{
-        //         'content-type':'application/json'
-        //     },
-        //     body: JSON.stringify(newAdmission)
-        // })
-        // .then(res=>res.json())
-        // .then(data=>{
-        //     console.log(data);
-        //     if(data.insertedId){
-        //         Swal.fire({
-        //             title: 'Success!',
-        //             text: 'User Added Successfully',
-        //             icon: 'success',
-        //             confirmButtonText: 'Cool'
-        //           })
-        //     }
-        // })
+        //   send data to server
+
+         fetch('https://college-booking-facilities-server-mahejabinmou.vercel.app/form',{
+            method:'POST',
+             headers:{
+                 'content-type':'application/json'
+             },
+             body: JSON.stringify(newAdmission)
+         })
+     .then(res=>res.json())
+         .then(data=>{
+            console.log(data);
+           if(data.insertedId){
+               Swal.fire({
+                     title: 'Success!',
+                    text: 'User Added Successfully',
+                    icon: 'success',
+                    confirmButtonText: 'Cool'
+                  })
+            }
+         })
     }
     return (
         <div className="bg-[#F4F3F0] p-24">

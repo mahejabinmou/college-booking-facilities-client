@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const MyCollegeRaw = ({form}) => {
-    const { address, date, email, img, name,phone,subject,_id} = form;
+    const { address, date, email, img, name,phone,subject,_id,collegeId} = form;
    
    
     return (
@@ -15,10 +15,10 @@ const MyCollegeRaw = ({form}) => {
             <td>{email}</td>
             <td>{date}</td>
             <td>{address}</td>
-            <td><Link to={`/carddetails/${_id}`}>
+            <td><Link to={`/carddetails/${collegeId}`}>
             <button className="btn-success rounded"><small>ViewDetails</small></button> </Link>
            </td>
-             <td><button className="btn-success rounded">Review</button></td>
+             <td><Link to="/addreview"><button className="btn-success rounded">Review</button></Link></td>
             </tr>
     );
 };
