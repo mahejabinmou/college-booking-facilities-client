@@ -12,15 +12,15 @@ const Admission = () => {
     }, [])
     console.log(collegeClasses);
     return (
-        <div>
+       
             
-            <div className="p-4">
+            <>
                 {
                     collegeClasses.map((item) => (
-                        <div key={item._id} className="text-center bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div key={item._id} className=" bg-success  p-4 m-2 text-center border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             
                                  <Link to={`/admissionform/${item?._id}`}>
-                                 <p>College Name: {item.name}</p>  </Link>
+                                 <p>{item.name}</p>  </Link>
                                  
                             
 
@@ -29,8 +29,8 @@ const Admission = () => {
 
 
                     ))}
-            </div>
-        </div>
+            </>
+        
 
     );
 };
