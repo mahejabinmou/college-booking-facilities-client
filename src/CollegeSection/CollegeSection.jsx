@@ -13,7 +13,7 @@ const CollegeSection = () => {
     console.log(selectClasses);
     return (
         <div>
-            <h1 className='font-bold text-4xl text-center my-2'>Colleges</h1>
+            <h1 className='font-bold text-2xl text-center p-8 text-success'>Popular Colleges</h1>
             <div className=" grid md:grid-cols-3 gap-4">
                 {
                     selectClasses.map((item) => (
@@ -29,7 +29,7 @@ const CollegeSection = () => {
                                 <p>sports:{item.sports.name}</p>
 
                                 <Link to={`/carddetails/${item?._id}`}>
-                                    <button className="inline-flex  items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Details</button>
+                                    <button className="inline-flex btn-success  items-center text-center rounded">Details</button>
                                 </Link>
                             </div>
 

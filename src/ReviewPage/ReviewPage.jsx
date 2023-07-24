@@ -14,7 +14,7 @@ const ReviewPage = () => {
     return (
 
         <div>
-            <h3 className='font-bold text-center p-2'>Colleges Reviews</h3>
+            <h3 className='font-bold text-center p-2 text-success'>Colleges Reviews</h3>
             <p className="text-center p-4"><small>The reviews that you can find on Studyportals are personal assessments that studentscan 
                 leave regarding their student experience.
                  They are a combination of ratings and text descriptions.</small>  </p>
@@ -25,7 +25,7 @@ const ReviewPage = () => {
                             <div className="">
                                 <h2 className="font-bold"><small>{item.name}</small></h2>
                                 <p><small>{item.review}</small></p>
-                                <p>{item.rating} <BsStar></BsStar></p>
+                                <p className="inline-flex">{item.rating} <BsStar></BsStar></p>
 
                             </div>
 

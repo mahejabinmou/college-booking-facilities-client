@@ -3,15 +3,15 @@ import { motion } from "framer-motion";
 const Features = () => {
     return (
         <motion.div
-      className="box bg-green-100 text-black"
+      className="box text-black"
       /**
        * Setting the initial keyframe to "null" will use
        * the current value to allow for interruptable keyframes.
        */
       whileHover={{ scale: [null, 1.5, 1.4] }}
       transition={{ duration: 0.3 }}>
-            <h2 className="text-center my-10">What can we fiund here<br /> <span className="text-4xl">See our features</span></h2>
-            <div className="grid grid-cols-3 gap-8 my-4 p-4">
+            <h2 className="text-center p-4 text-success">What can we fiund here<br /> <span className="text-4xl text-success">See our features</span></h2>
+            <div className="grid md:grid-cols-3 gap-8 p-4">
             <div>
                 <div>
                 <h2 className="text-2xl text-success">01. College Name</h2>

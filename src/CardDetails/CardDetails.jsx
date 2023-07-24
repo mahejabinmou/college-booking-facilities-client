@@ -18,11 +18,11 @@ const CardDetails = () => {
     
     return (
 
-        <div className="card card-compact p-2 m-8 w-80 bg-base-100 shadow-xl">
+        <div className="card card-compact p-4 w-80 bg-base-100 shadow-xl">
             <div className="card-body">
 
 
- <img src={collegeDetail.image} className="h-52 w-52 mx-auto p-2" alt="" />
+ <img src={collegeDetail.image} className="h-36 w-36 mx-auto p-2" alt="" />
 
                 <p>College Name: {collegeDetail?.name}</p>
                 <p>Admission dates:{collegeDetail?.admission_dates}</p>

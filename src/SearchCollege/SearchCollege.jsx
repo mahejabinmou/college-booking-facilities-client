@@ -24,10 +24,10 @@ const SearchCollege = () => {
     };
     return (
         <div>
-            <h2 className="text-2xl text-center text-success p-8">Search College</h2>
-            <div className="form-control mx-auto grid md:grid-cols-2 gap-4  w-1/3">
+            <h2 className="text-2xl text-center text-success p-4">Search your  College</h2>
+            <div className="form-control mx-auto grid md:grid-cols-2 pb-8 gap-4  w-1/2">
 
-                <input onChange={(e) => setSearchText(e.target.value)} type="text" placeholder="search by college name"
+                <input onChange={(e) => setSearchText(e.target.value)} type="text" placeholder="search by name"
                     className="input input-bordered" />
                 <button
                     onClick={handleSearch}
@@ -35,7 +35,6 @@ const SearchCollege = () => {
 
             </div>
             <div>
-            <h1 className='font-bold text-4xl text-center my-2'>Colleges</h1>
             <div className=" grid md:grid-cols-3 gap-4">
                 {
                     Colleges.map((item) => (
@@ -49,7 +48,7 @@ const SearchCollege = () => {
                                 <p>sports:{item.sports.name}</p>
 
                                 <Link to={`/carddetails/${item?._id}`}>
-                                    <button className="inline-flex  items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Details</button>
+                                    <button className="inline-flex btn-success items-center rounded">Details</button>
                                 </Link>
                             </div>
 

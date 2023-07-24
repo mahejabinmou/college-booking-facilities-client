@@ -17,7 +17,7 @@ const Colleges = () => {
 
 
         <div>
-            <h1 className='font-bold text-4xl text-center my-2'>Colleges</h1>
+            <h1 className='font-bold text-2xl text-center text-success p-8'>All Colleges</h1>
             <div className=" grid md:grid-cols-3 gap-4">
                 {
                     collegeClasses.map((item) => (
@@ -31,7 +31,7 @@ const Colleges = () => {
                                 <p>sports:{item.sports.name}</p>
 
                                 <Link to={`/carddetails/${item?._id}`}>
-                                    <button className="inline-flex  items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Details</button>
+                                    <button className="inline-flex btn-success  items-center text-center">Details</button>
                                 </Link>
                             </div>
 
